@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: decision-service
+server:
+  port: 8087
+
+
+decision:
+  service:
+    credit:
+      score:
+        min-score: 500
+        url:
+          equifax: http://equifax-service:9093/api/v1/demo
+          experian: http://experian-service:9092/api/v1/demo
+          transunion: http://transunion-service:9091/api/v1/demo
