@@ -14,3 +14,17 @@ decision:
           equifax: http://localhost:9093/api/v1/demo
           experian: http://localhost:9092/api/v1/demo
           transunion: http://localhost:9091/api/v1/demo
+management:
+  security:
+    enabled: false
+
+
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    health:
+      show-details: always
+  info:
+    env:
+      enabled: true
