@@ -9,8 +9,9 @@ decision:
   service:
     credit:
       score:
-        min-score: 600
+        min-score: 650
         url:
           equifax: http://equifax-service:9093/api/v1/demo
           experian: http://experian-service:9092/api/v1/demo
           transunion: http://transunion-service:9091/api/v1/demo
+
