@@ -11,6 +11,6 @@ decision:
       score:
         min-score: 500
         url:
-          equifax: http://equifax-service:9093/api/v1/demo
-          experian: http://experian-service:9092/api/v1/demo
-          transunion: http://transunion-service:9091/api/v1/demo
+          equifax: http://localhost:9093/api/v1/demo
+          experian: http://localhost:9092/api/v1/demo
+          transunion: http://localhost:9091/api/v1/demo
